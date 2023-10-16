@@ -27,6 +27,11 @@ header {
     display: flex;
     justify-content: space-between; /* Distribute items evenly */
   }
+
+  :global(body) {
+    background-image: url("pexels-pavel-danilyuk-6296063.jpg");
+    background-size: cover;
+  }
   
  
   
