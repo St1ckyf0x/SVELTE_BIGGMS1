@@ -16,7 +16,7 @@
 
 }
 header {
-    background-color: lightgray  ;
+    background-color: rgb(129, 129, 129)  ;
     border-bottom: 2px solid rgb(88, 84, 84);
     color: #000000; /* Set the text color */
   }
@@ -31,6 +31,19 @@ header {
   :global(body) {
     background-image: url("pexels-pavel-danilyuk-6296063.jpg");
     background-size: cover;
+  }
+
+  .home-page-text h1 {
+    /* opacity: 1; */
+  }
+  
+  .home-page-text {
+    position: absolute;
+    top: 30%;
+    left: 30%;
+    background-color: rgba(56, 63, 73, 0.53);
+    /* opacity: 0.4; */
+    padding: 10px;
   }
   
  
