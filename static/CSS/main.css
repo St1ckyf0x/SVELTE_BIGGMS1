@@ -16,9 +16,12 @@
 
 }
 header {
-    background-color: rgb(129, 129, 129)  ;
-    border-bottom: 2px solid rgb(88, 84, 84);
+    background-color: rgb(3, 2, 2)  ;
     color: #000000; /* Set the text color */
+  }
+  footer{
+   background-color:rgb(3, 2, 2)
+   
   }
 
   .nav-list {
@@ -29,8 +32,8 @@ header {
   }
 
   :global(body) {
-    background-image: url("pexels-pavel-danilyuk-6296063.jpg");
-    background-size: cover;
+    background-image: url("backgroundDND.png");
+    background-size:contain;
     background-attachment: fixed;
   }
 
@@ -42,15 +45,23 @@ header {
     position: absolute;
     top: 30%;
     left: 30%;
-    background-color: rgba(56, 63, 73, 0.53);
+    background-color: rgba(0, 0, 0, 0.53);
     /* opacity: 0.4; */
     padding: 10px;
+    font-style:italic;
+    color: rgb(165, 159, 159);
+  }
+
+  #dnd_name.png {
+    background-size: 100% 600px;
   }
   
-  .LOGO {
-    position:fixed;
-    padding-right: 20px;
-  }
+.LOGO {
+  justify-content: center;
+  display: flex;
+  padding-top: 20px;
+}
+  
  
   
   

@@ -1,6 +1,6 @@
 
-<div class = "mma-image1">
-    <img src ="/IMG/pexels-pavel-danilyuk-6296063.jpg" alt = "FRONTIMAGE" width="2600x">
+<div class = "DND-image1">
+    <img src ="/IMG/backgroundDND.png" alt = "FRONTIMAGE">
     <!-- <style="width: 100px;"></style> -->
 </div>
 <div class= "home-page-text">
