@@ -5,7 +5,7 @@
 </div>
 <div class= "home-page-text">
     <h1>
-        WELCOME to Brighton MMA Gym, blah blah sign up
+        Welcome to the Dark and Darker Fan Page
     </h1>
 </div>
 

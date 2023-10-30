@@ -2,6 +2,7 @@
     box-sizing: border-box;
     margin: 0;
     padding: 0;
+    font-style: italic;
 
 }
 
@@ -19,9 +20,9 @@ header {
     background-color: rgb(3, 2, 2)  ;
     color: #000000; /* Set the text color */
   }
-  footer{
-   background-color:rgb(3, 2, 2)
-   
+
+  .footer{
+   color:rgb(0, 0, 0)s
   }
 
   .nav-list {
@@ -33,7 +34,7 @@ header {
 
   :global(body) {
     background-image: url("backgroundDND.png");
-    background-size:contain;
+    background-size:cover;
     background-attachment: fixed;
   }
 
@@ -60,6 +61,13 @@ header {
   justify-content: center;
   display: flex;
   padding-top: 20px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  gap: 100px;
+  padding: 100px;
 }
   
  
